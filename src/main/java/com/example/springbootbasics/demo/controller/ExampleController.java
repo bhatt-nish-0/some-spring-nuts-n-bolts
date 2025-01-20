@@ -16,7 +16,7 @@ public class ExampleController {
 
 
     @Autowired
-    @Qualifier(value = "nish-33")
+    @Qualifier(value = "nish-45")
     public Integer x;
 
     @GetMapping("/rrr")
