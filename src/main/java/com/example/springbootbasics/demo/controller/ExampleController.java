@@ -19,6 +19,10 @@ public class ExampleController {
     @Qualifier(value = "nish-45")
     public Integer x;
 
+    @Autowired
+    @Qualifier(value = "supplierB")
+    private Boolean x2;
+
     @GetMapping("/rrr")
     public String explain() {
         return zorro.doSomeShit();
@@ -27,5 +31,10 @@ public class ExampleController {
     @GetMapping("/we")
     public Integer x1() {
         return x;
+    }
+
+    @GetMapping("/wv")
+    public Boolean x5() {
+        return x2;
     }
 }

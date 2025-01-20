@@ -25,6 +25,11 @@ public class Config {
     public Integer y1() {
         return new Integer(106);
     }
+
+    @Bean
+    public Boolean supplierB() {
+        return true;
+    }
 }
 
 
